@@ -1,0 +1,130 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>四则运算计算器官网</title>  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">  
+    <style>  
+        body {  
+            font-family: 'Arial', sans-serif;  
+            background-color: #e0f7fa; /* 浅绿色背景 */  
+            color: #2e86de; /* 深蓝色文字，与绿色搭配 */  
+        }  
+        .hero {  
+            background-image: url('D:\Java\rjgc\src\main\微信图片_20241014152917.png');  
+            background-size: cover;  
+            background-position: center;  
+            color: white;  
+            text-align: center;  
+            padding: 100px 0;  
+            background-blend-mode: overlay; /* 使背景图与绿色叠加 */  
+            background-color: rgba(0, 128, 0, 0.5); /* 半透明绿色覆盖 */  
+        }  
+        .hero h1 {  
+            font-size: 3.5rem;  
+            margin-bottom: 20px;  
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字阴影，增加可读性 */  
+        }  
+        .hero p {  
+            font-size: 1.5rem;  
+        }  
+        .features, .download {  
+            padding: 60px 0;  
+            text-align: center;  
+            background-color: #e0f7fa; /* 保持与body相同的浅绿色 */  
+        }  
+        .features img {  
+            max-width: 100%;  
+            height: auto;  
+            filter: brightness(1.2) sepia(0.3) saturate(1.5) hue-rotate(120deg); /* 调整图片颜色以匹配绿色系 */  
+        }  
+        .download {  
+            background-color: #d1f2eb; /* 稍深的绿色 */  
+        }  
+        .download .btn {  
+            background-color: #4caf50; /* 绿色按钮 */  
+            border-color: #4caf50;  
+        }  
+        .download .btn:hover {  
+            background-color: #45a049; /* 绿色按钮悬停效果 */  
+            border-color: #45a049;  
+        }  
+        .footer {  
+            background-color: #2e86de; /* 深蓝色背景，与绿色形成对比 */  
+            color: white;  
+            text-align: center;  
+            padding: 20px 0;  
+        }  
+        .footer a {  
+            color: #ffffff; /* 确保链接也是白色 */  
+        }  
+    </style>  
+</head>  
+<body>  
+  
+    <!-- Header -->  
+    <header class="bg-success text-white text-center py-3">  
+        <h1>四则运算计算器</h1>  
+        <p>简单、快速、准确的计算工具</p>  
+    </header>  
+  
+    <!-- Hero Section -->  
+    <section class="hero">  
+        <div class="container">  
+            <h1>欢迎来到四则运算计算器官网</h1>  
+            <p>您的日常计算好帮手</p>  
+        </div>  
+    </section>  
+  
+    <!-- Features Section -->  
+    <section class="features">  
+        <div class="container">  
+            <h2>产品特点</h2>  
+            <div class="row">  
+                <div class="col-md-4">  
+                    <img src="D:\Java\rjgc\src\main\加.jpg" alt="加法图标" class="mb-3">  
+                    <h4>加法运算</h4>  
+                    <p>轻松进行加法计算，结果即刻呈现。</p>  
+                </div>  
+                <div class="col-md-4">  
+                    <img src="D:\Java\rjgc\src\main\减.jpg" alt="减法图标" class="mb-3">  
+                    <h4>减法运算</h4>  
+                    <p>快速进行减法计算，准确无误。</p>  
+                </div>  
+                <div class="col-md-4">  
+                    <img src="D:\Java\rjgc\src\main\cx.jpg" alt="乘除图标" class="mb-3">  
+                    <h4>乘除运算</h4>  
+                    <p>支持乘法与除法运算，满足多样化需求。</p>  
+                </div>  
+            </div>  
+        </div>  
+    </section>  
+   
+  <!-- Download Section -->  
+<section class="download">  
+    <div class="container">  
+        <h2>下载我们的应用</h2>  
+        <div class="row">  
+            <div class="col-md-4">  
+                <img src="D:\Java\rjgc\src\main\Windows-C.jpg" alt="Windows Store 图标" class="mb-3">  
+                <a href=" https://roy831.github.io/calculate.exe" class="btn btn-primary btn-block" download="calculate.exe">下载 Windows 版</a>
+                <!-- 注意：这里的 href 属性应该是你的 .exe 文件的实际下载链接 -->  
+                <!-- download 属性指定了下载时的文件名，用户看到的文件名将是 "your-file.exe" -->  
+            </div>  
+            <!-- 如果还有其他下载选项（如Mac或Linux版本），可以在这里添加更多的列 -->  
+        </div>  
+    </div>  
+</section> 
+  
+    <!-- Footer -->  
+    <footer class="footer">  
+        <div class="container">  
+            <p>&copy; 2023 四则运算计算器. 保留所有权利.</p>  
+        </div>  
+    </footer>  
+  
+    <!-- Scripts -->  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>  
+</body>  
+</html>
