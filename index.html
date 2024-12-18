@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四则运算计算器官网</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #e8f5e9;
+            /* 浅绿色背景 */
+            color: #388e3c;
+            /* 深绿色文字 */
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        footer {
+            background-color: #4caf50;
+            /* 绿色 */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1,
+        header p {
+            margin: 0;
+        }
+
+        .hero {
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+            color: rgb(55, 103, 54);
+            text-align: center;
+            padding: 100px 0;
+            background-blend-mode: multiply;
+            /* 背景图与绿色叠加 */
+        }
+
+        .features,
+        .download {
+            padding: 60px 0;
+            text-align: center;
+            background-color: #d3f5d6;
+            /* 浅绿色 */
+        }
+
+        .features .row,
+        .download .row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .features img,
+        .download img {
+            max-width: 75px;
+            /* 调整图标大小 */
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .download {
+            background-color: #c8e6c9;
+            /* 浅绿色 */
+        }
+
+        .download .btn {
+            background-color: #8bc34a;
+            /* 亮绿色按钮 */
+            border-color: #8bc34a;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .download .btn:hover {
+            background-color: #7cb342;
+            /* 亮绿色按钮悬停效果 */
+            border-color: #7cb342;
+        }
+
+        .footer {
+            background-color: #388e3c;
+            /* 深绿色背景 */
+            color: rgb(119, 219, 57);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .col {
+            flex: 0 0 33.333%;
+            /* 每行三个图标 */
+            max-width: 33.333%;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>四则运算计算器</h1>
+        <p>简单、快速、准确的计算工具</p>
+    </header>
+
+    <section class="hero">
+        <h1>欢迎来到四则运算计算器官网</h1>
+        <p>您的日常计算好帮手</p>
+    </section>
+
+    <section class="features">
+        <h2>产品特点</h2>
+        <div class="row">
+            <div class="col">
+                <img src="D:\rjgc\software\assets\jia.jpg" alt="加法图标">
+                <h4>加法运算</h4>
+                <p>轻松进行加法计算，结果即刻呈现。</p>
+            </div>
+            <div class="col">
+                <img src="D:\rjgc\software\assets\jian.jpg" alt="减法图标">
+                <h4>减法运算</h4>
+                <p>快速进行减法计算，准确无误。</p>
+            </div>
+            <div class="col">
+                <img src="D:\rjgc\software\assets\cx.jpg" alt="乘除图标">
+                <h4>乘除运算</h4>
+                <p>支持乘法与除法运算，满足多样化需求。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="download">
+        <h2>下载我们的应用</h2>
+        <p>适用于各种设备，随时随地进行计算。</p>
+        <div class="row">
+            <div class="col">
+                <img src="anzhuo.png" alt="">
+            </div>
+            <div class="col">
+                <img src="D:\rjgc\software\assets\Windows-C.jpg" alt="Windows Store 图标">
+                <a href="#" class="btn">下载 Windows 版</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 四则运算计算器. 保留所有权利.</p>
+    </footer>
+</body>
+
+</html>
